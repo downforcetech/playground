@@ -1,0 +1,18 @@
+packages: ['dev']
+
+onlyBuiltDependencies: ['esbuild']
+
+managePackageManagerVersions: true
+packageManagerStrictVersion: true
+
+optimisticRepeatInstall: true
+verifyDepsBeforeRun: install
+
+autoInstallPeers: false
+strictDepBuilds: true
+strictPeerDependencies: true
+
+hoist: false
+hoistWorkspacePackages: false
+hoistPattern: []
+publicHoistPattern: []

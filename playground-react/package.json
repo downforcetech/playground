@@ -1,0 +1,30 @@
+{
+    "type": "module",
+    "scripts": {
+        "init": "pnpm install",
+        "upgrade": "npx npm-upgrade@latest && npm --prefix dev run upgrade && npm run init",
+        "check": "npm --prefix dev run check",
+        "build": "npm --prefix dev run build",
+        "dev": "npm --prefix dev run start",
+        "preview": "npm --prefix dev run preview",
+        "serve": "npm --prefix dev run serve"
+    },
+    "engines": { "node": ">= 20" },
+    "packageManager": "pnpm@10.6.5",
+    "dependencies": {
+        "@downforce/std.css": "*",
+        "@downforce/react": "*",
+        "@downforce/reactx": "*",
+        "@downforce/std": "*",
+        "@downforce/ts-reset": "*",
+        "@downforce/web": "*",
+        "@downforce/webx": "*",
+        "@types/react": "19",
+        "@types/react-dom": "19",
+        "react": "19",
+        "react-dom": "19"
+    },
+    "devDependencies": {
+        "@downforce/ts-config": "*"
+    }
+}
