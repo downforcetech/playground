@@ -1,1 +1,1 @@
-/// <reference types="@downforce/ts-reset"/>
+/// <reference types="@downforce/tsreset"/>
